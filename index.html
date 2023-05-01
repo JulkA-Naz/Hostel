@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<title>Притулок для тварин</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230501153751">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Lora:regular,500,700,italic,700italic&display=swap&_v=20230501153751" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<div class="header__logo"><img src="img/cat-dog.svg" alt="Наш логотип">Pets</div>
+
+					<button type="button" class="header__burger icon-menu"><span></span></button>
+					<nav class="menu__body">
+						<ul class="header__list">
+							<li>
+								<a href="#" data-goto=".about__section" class="header__link">Головна</a>
+							</li>
+							<li>
+								<a href="#" data-goto=".pets__section" class="header__link">Наші тварини</a>
+							</li>
+							<li>
+								<a href="#" data-goto=".weekdays__section" class="header__link">Про нас</a>
+							</li>
+							<li>
+								<a href="#" data-goto=".happy-stories__section" class="header__link">Щаливі історії</a>
+							</li>
+							<li>
+								<a href="#" data-goto="footer" class="header__link">Контакти</a>
+							</li>
+						</ul>
+					</nav>
+					<a href="#" data-popup="#popup_5" class="btn">Прихистити тварину</a>
+
+				</div>
+			</div>
+		</header>
+
+
+		<!-- <div class="header__menu menu"> -->
+		<!-- <button type="button" class="menu__icon icon-menu"><span></span></button> -->
+		<!-- <nav class="menu__body"> -->
+		<ul class="menu__list">
+			<li class="menu__item"><a href="" class="menu__link"></a></li>
+		</ul>
+		<!-- </nav> -->
+		<!-- </div> -->
+		<!-- class="page" -->
+		<main class="page">
+			<section class="about__section">
+				<div class="about__container">
+					<div class="about__info">
+						<h1 class="headline">Про нас і наших підопічних</h1>
+						<p class="desc">Коли Ви вирішили взяти додому песика або котика, перше питання, яке постає – яку ж
+							породу вибрати. Та, можливо, варто замислитися про те, щоб взяти майбутнього улюбленця з притулку?
+							Так Ви отримаєте дуже вдячного друга, який часто набагато відданіший ніж породистy тваринy.
+							Але пам’ятайте, що довіру свого улюбленця ще слід заслужити. Адже він певний час провів у
+							притулку чи на вулиці, і до людей може ставитися з насторогою.</p>
+						<p class="desc">У нашому притулку багато собак та котиків, і Ви можете підібрати улюбленця по
+							характеру саме для
+							себе. Але пам'ятайте, що для повноцінного догляду за твариною недостатньо лише любові. Потрібні
+							також час
+							для ігор і спілкування. На відміну від кішок, собаки зазвичай потребують набагато більше уваги
+							своїх господарів.</p>
+						<p class="desc">Притулок може прийняти обмежену кількість тварин, і беручи одну з них, Ви даруєте
+							новий дім не
+							тільки їй, але й даєте змогу прийняти ще одну тварину у притулок.
+						</p>
+						<a href="#" data-goto=".pets-title" class="btn gallery-btn">Галерея</a>
+					</div>
+
+					<div class="main-image"><img src="img/main-image.jpg" alt=""></div>
+				</div>
+			</section>
+			<section class="happy-stories__section">
+				<div class="happy-stories__container">
+					<div class="happy-stories__card card">
+						<h2 class="_anim-items _anim-no-hide title">Щаливі історії</h2>
+						<p class="desc">Історії тварин, яких забрали з нашого притулку. Якщо відчуваєте, що хотіли би
+							прихистити тварину, але не наважуєтеся – спробуйте просто подивитись на неї та познайомитись.
+						</p>
+					</div>
+
+					<div class="image-slider swiper">
+						<!-- Слайдер -->
+						<div class="image-slider__wrapper swiper-wrapper">
+							<div class="image-slider__slide swiper-slide"> <span class="numbertext">Лiнда</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-1.jpg" alt="Мешканець Притулку">
+									<figcaption>"Лінда в мене вже 2 тижні. Коли прийшла до притуку, одразу зрозуміла – це вона.
+										Намагаюся створити для неї максимально комфортне середовище. Тварини відчувають усе. Вони
+										віддячать вам за порятунок своєю любов’ю та захистом."</figcaption>
+								</figure>
+							</div>
+							<div class="image-slider__slide swiper-slide"><span class="numbertext">Гаррі</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-2.jpg" alt="Мешканець Притулку">
+									<figcaption>"Гаррі - дуже товариський собака, він ненавидить бути на самоті, починає скулити
+										та сумувати. Завжди так радісно зустрічає мене з роботи, що який би не був настрій,
+										посмішка на обличчі з'являється в мить."</figcaption>
+								</figure>
+							</div>
+							<div class="image-slider__slide swiper-slide"> <span class="numbertext">Буся</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-3.jpg" alt="Мешканець Притулку">
+									<figcaption>" На прогулянках
+										часто знайомлюся з людьми, які також мають собак, таким чином і
+										познайомився з коханою. Точніше, нас випадково познайомили наші собаки, зацікавившись одне
+										одним."</figcaption>
+								</figure>
+							</div>
+							<div class="image-slider__slide swiper-slide"><span class="numbertext">Джек</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-4.jpg" alt="Мешканець Притулку">
+									<figcaption>"До мене Джек звик
+										одразу, хоча спочатку побоювався незнайомців. Тепер ми без
+										проблем їздимо у громадському транспорті, заходимо в магазини, бігаємо до озера. Жодного
+										разу не пошкодувала, що забрала тварину з притулку, це кращій друг... недивлячись на те,
+										що
+										він завжди будить мене у вихідні."</figcaption>
+								</figure>
+							</div>
+							<div class="image-slider__slide swiper-slide"><span class="numbertext">Соня</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-5.jpg" alt="Мешканець Притулку">
+									<figcaption>"Коли лягаєш спати,
+										Соня скручується поряд на подушці і починає голосно
+										муркотіти, від цього я одразу засинаю. Обожнює кататися у корзині на велосипеді."
+									</figcaption>
+								</figure>
+							</div>
+							<div class="image-slider__slide swiper-slide"> <span class="numbertext">Жужик</span>
+								<figure class="image-slider__image">
+									<img src="img/gallery/happy-story-6.jpg" alt="">
+									<figcaption>"Наш син постійно
+										просив песика. Ми дочекалися, поки він виросте до того віку,
+										коли зможе доглядати за ним, і наважилися взяти тварину. Це правда, що тварини вчать дітей
+										відповідальності, доброті та піклуванню про інших. "</figcaption>
+								</figure>
+							</div>
+						</div>
+						<div class="image-swiper-button-left"><img src="img/arrow-left.svg" alt=""></div>
+						<div class="image-swiper-button-right"><img src="img/arrow-right.svg" alt=""></div>
+					</div>
+
+					<div class="image-mini-slider swiper ">
+						<div class="image-mini-slider__wrapper swiper-wrapper">
+
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story-1min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story-2min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story3min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story-4min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story-5min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+							<div class="image-mini-slider__slide swiper-slide">
+								<div class="image-mini-slider__image">
+									<img src="img/gallery/happy-story-6min.jpg" alt="Мешканець Притулку">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="weekdays__section">
+				<div class="weekdays__container">
+					<div class="weekdays__card card">
+						<div class="weekdays-card__column">
+							<h2 class="_anim-items _anim-no-hide title weekdays-title">Наші будні</h2>
+							<p class="desc weekdays__desc">Ранок, звичайно ж, починається з годування наших тваринок.
+								Напротязі дня ми соціалізуємо та навчаємо, граємо з ними, робимо профілактичні
+								огляди, при необхідності - мінімальні медичні процедури, вигулюємо собак. Замаємося закупівлею
+								та доставкою кормів та водички. Обов'язково підтримуємо чистоту в приміщеннях.
+							</p>
+						</div>
+						<div class="weekdays__images"> <img src="img/weekdays-1.jpg" alt="Як проходить наш день" class="weekdays-img-1">
+							<img src="img/weekdays-3.jpg" alt="Як проходить наш день" class="weekdays-img-2">
+							<img src="img/weekdays-2.jpg" alt="Як проходить наш день" class="weekdays-img-3">
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="pets__section">
+				<div class="pets__container">
+					<h2 class="_anim-items _anim-show _anim-no-hide title pets-title">Наші хвостики</h2>
+					<div class="pets__swiper-container">
+						<div class="pets-swiper swiper">
+							<div class="swiper-wrapper">
+								<!-- Slides -->
+								<div class="swiper-slide">
+									<img src="img/angela.jpg" loading="eager" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/carl.jpg" loading="eager" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/ilona.jpg" loading="eager" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/joesef.jpg" loading="eager" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/barbara.jpg" loading="eager" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/max.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/pol.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/viktor.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/strange.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/zhadan.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/dollar.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/keit.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/antony.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/borna.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/alex.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+								<div class="swiper-slide">
+									<img src="img/nordic.jpg" loading="lazy" alt="Мешканець Притулку">
+								</div>
+
+							</div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+						<div class="pets-swiper-button-left"><img src="img/arrow-left.svg" alt=""></div>
+						<div class="pets-swiper-button-right"><img src="img/arrow-right.svg" alt=""></div>
+					</div>
+				</div>
+			</section>
+
+
+			<section class="help__section">
+				<div class="help__container lock-padding">
+					<h2 class="_anim-items _anim-no-hide title help-title">Як я можу допомогти</h2>
+					<p class="desc help__desc">Нам дуже хочеться багатьом допомогти, тож не завжди вистачає робочих рук. Ви
+						також можете допомогти речами, які можна відправити поштою (на постійній основі потрібні теплі речі,
+						ліки, корм). Звичайно ж, наші
+						песики та котики будуть вдячні будь-якій матеріальній допомозі.
+					</p>
+
+					<!-- Паралакс слайдер -->
+					<div class="parallax-slider swiper-container">
+						<div class="parallax-slider__bg" data-swiper-parallax="-30%">
+
+
+						</div>
+						<div class="parallax-slider__wrapper swiper-wrapper">
+							<div class="parallax-slider__slide swiper-slide">
+								<h2 class="parallax-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">
+									Волонтерство</h2>
+								<div class="parallax-slider__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									Будемо дуже раді допомозі у наших щоденних справах: приготування їжі, годування, доставка
+									свіжої води та корму, прибирання території та спілкування з тваринами.
+								</div>
+								<a href="#" data-popup="#popup_1" class="parallax-slider__button" data-swiper-parallax-opacity="0" data-swiper-parallax="-100">Стати волонтером</a>
+							</div>
+
+							<div class="parallax-slider__slide swiper-slide">
+								<h2 class="parallax-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">
+									Фінанси</h2>
+								<div class="parallax-slider__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">Фінансова підтримка
+									притулку дає змогу утримувати тварин,
+									лікувати, стереізувати, вакцинувати та шукати їм домівки та забирати до нас інших
+									хвостиків. Саме тому ми завжди вдячні за будь-яку благодійну допомогу.
+								</div>
+								<a href="#" data-popup="#popup_2" class="parallax-slider__button" data-swiper-parallax-opacity="0" data-swiper-parallax="-100">Зробити внесок</a>
+							</div>
+
+							<div class="parallax-slider__slide swiper-slide">
+								<h2 class="parallax-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">
+									Перетримка</h2>
+								<div class="parallax-slider__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									В домашніх умовах тварина швидше соціалізується і отримує більше уваги від людини. Ви
+									маєте моживість подарувати тимчасовий дім для нашого котика чи песика на будь-який бажаний
+									термін або поки для неї не знайдеться постіний господар.
+								</div>
+								<a href="#" data-popup="#popup_3" class="parallax-slider__button" data-swiper-parallax-opacity="0" data-swiper-parallax="-100">Взяти тварину на перетримку</a>
+							</div>
+
+							<div class="parallax-slider__slide swiper-slide">
+								<h2 class="parallax-slider__title" data-swiper-parallax-opacity="0" data-swiper-parallax-scale="0.2">
+									Прогулянка з собакою</h2>
+								<div class="parallax-slider__text" data-swiper-parallax-opacity="0" data-swiper-parallax="-300" data-swiper-parallax-duration="500">
+									Будь-яка собака більш за все любить гуляти. Вигулювати собаку слід як
+									мінімум двічі на день, даючи їй максимум фізичних навантажень у вигляді ігор чи бігу. Тож
+									Ви маєте можливіть приємно та цікаво провети час з нашими чотирилапими уюбленцями. Це, в свою
+									чергу, допоможе прийняти рішення чи варто заводити собаку.
+								</div>
+								<a href="#" data-popup="#popup_4" class="parallax-slider__button" data-swiper-parallax-opacity="0" data-swiper-parallax="-100">Погуляти з собакою</a>
+							</div>
+						</div>
+						<div class="parallax-swiper-button-left"><img src="img/arrow-left.svg" alt=""></div>
+						<div class="parallax-swiper-button-right"><img src="img/arrow-right.svg" alt=""></div>
+
+
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="socials__subtitle">
+					<div class="header__logo"><img src="img/cat-dog.svg" alt="Наш логотип">Pets</div>
+					<h3 class="subtitle">Ми в соціальних мережах</h3>
+				</div>
+				<div class="subscribe__socials">
+					<a href="https://uk-ua.facebook.com" class="facebook icon-facebook"></a>
+					<a href="https://twitter.com" class="twitter icon-twitter"></a>
+					<a href="https://www.instagram.com/" class="instagram icon-instagram"></a>
+				</div>
+				<div class="contacts-holder">
+					<div class="contacts">
+						<span> Телефон:</span> <a href="tel:+380961234567" class="icon-phone">+38 (096)
+							123-45-67</a>
+						<span>Поштова скринька:</span><a href="mailto:example@gmail.com" class="icon-email">example@gmail.com</a>
+						<address class="address icon-location"><span>Наша адреса:&nbsp;</span> Україна, місто Вінниця </address>
+					</div>
+					<div class="map"> <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d83350.08665991975!2d28.40953419686319!3d49.244362417910445!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b65195a6489%3A0xcbd4e159eedd74fe!2z0JLRltC90L3QuNGG0Y8sINCS0ZbQvdC90LjRhtGM0LrQsCDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!5e0!3m2!1suk!2sua!4v1674138676212!5m2!1suk!2sua" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div aria-hidden="true" id="popup_1" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close-popup"><span class="icon-cross"></span></button>
+				<div class="popup__title">Стати волонтером</div>
+				<div class="popup__text">
+					Якщо Ви маєте бажання допомогти нам у догляді за тваринами, залиште Ваш номер телефону і у
+					найближчий час ми з Вами зв'яжемося. Якщо у Вас виникло питання, можете відправити його у
+					формі нижче або передзвонити нам.
+				</div>
+				<form method="post">
+					<div class="popup-name"><span class="icon-user"></span>
+						<input type="text" name="name" class="form-control" placeholder="Ім'я">
+					</div>
+					<div class="popup-tel"><span class="icon-phone"></span>
+						<input type="tel" name="tel" class="form-control tel" placeholder="Введіть Ваш телефон">
+
+						<!-- placeholder="+38(0__)__-__-___" minlength="17" maxlength="17"-->
+						<!-- pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}" -->
+					</div>
+					<div class="popup-email"><span class="icon-email"></span>
+						<input type="email" name="email" class="form-control" placeholder="E-mail">
+					</div>
+					<button type="submit" class="btn submit-btn">Відправити</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup_2" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close-popup"><span class="icon-cross"></span></button>
+				<div class="popup__title">Зробити внесок</div>
+				<div class="popup__text">
+					Кошти будуть витрачені на утримання тварин у притулку, харчування та лікування тваринок.
+					Номер карти для збору коштів
+					<span class="card-to-pay">1111 1111 1111</span>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div aria-hidden="true" id="popup_3" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close-popup"><span class="icon-cross"></span></button>
+				<div class="popup__title">Взяти тварину на перетримку</div>
+				<div class="popup__text">
+					Якщо Ви хочете тимчасово подбати про одного з мешканців нашого притулку, залиште у формі
+					нижче Ваш номер телефону і ми Вам передзвонимо для узгодження деталей. Якщо маєте питання,
+					будемо раді відповісти.
+				</div>
+				<form method="post">
+					<div class="popup-name"><span class="icon-user"></span><input type="text" name="name" class="form-control" placeholder="Ім'я"></div>
+					<div class="popup-tel"><span class="icon-phone"></span>
+						<input type="tel" name="tel" class="form-control tel" placeholder="Введіть Ваш телефон">
+					</div>
+					<div class="popup-email"><span class="icon-email"></span>
+						<input type="email" name="email" class="form-control" placeholder="E-mail">
+					</div>
+					<button type="submit" class="btn submit-btn">Відправити</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div aria-hidden="true" id="popup_4" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close-popup"><span class="icon-cross"></span></button>
+				<div class="popup__title">Погуляти з собакою</div>
+				<div class="popup__text">
+					Якщо хочете весело та активно провести час з вибраним чотирилапим улюбленцем, просто
+					лишіть свій номер телефону і ми передзвонимо у найближчий час для узгодження деталей. Або
+					відправте запит на електронну пошту з вказанням обраної тварини.
+				</div>
+				<form method="post">
+					<div class="popup-name"><span class="icon-user"></span><input type="text" name="name" class="form-control" placeholder="Ім'я"></div>
+					<div class="popup-tel"><span class="icon-phone"></span>
+						<input type="tel" name="tel" class="form-control tel" placeholder="Введіть Ваш телефон">
+					</div>
+					<div class="popup-email"><span class="icon-email"></span>
+						<input type="email" name="email" class="form-control" placeholder="E-mail">
+					</div>
+					<button type="submit" class="btn submit-btn">Відправити</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup_5" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close close-popup"><span class="icon-cross"></span></button>
+				<div class="popup__title">Прихистити тварину</div>
+				<div class="popup__text">
+					<p>Для того, щоб отримати консультацію, передзвоніть нам за номером
+						<a href="tel:+380961234567">+38 (096)
+							123-45-67</a> або залиште
+						свій номер телефону і ми перетелефонуємо.
+					</p>
+					<p>Задати запитання, що Вас цікавлять, можна також у формі нижче. </p>
+					<p>Перед тим як забрати тварину, обов'язково порадьтеся з працівниками притулку,
+						щоб знайти
+						вихованця, який буде відповідати Вашим вимогам та
+						очікуванням.</p>
+				</div>
+				<form method="post">
+					<div class="popup-name"><span class="icon-user"></span><input type="text" name="name" class="form-control" placeholder="Ім'я"></div>
+					<div class="popup-tel"><span class="icon-phone"></span>
+						<input type="tel" name="tel" class="form-control tel" placeholder="Введіть Ваш телефон">
+					</div>
+					<div class="popup-email"><span class="icon-email"></span>
+						<input type="email" name="email" class="form-control" placeholder="E-mail">
+					</div>
+					<button type="submit" class="btn submit-btn">Відправити</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20230501153751"></script>
+</body>
+
+</html>
